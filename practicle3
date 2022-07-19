@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 3</title>
+    <style>
+        * {
+            width: auto;
+            height: auto;
+            margin: auto;
+            color: rgb(30, 27, 27);
+            text-align: center;
+
+        }
+
+        .header {
+            background-color: #f1acf2;
+            text-shadow: 10px 10px 10px 10px rgb(158, 58, 91);
+
+        }
+
+        #WebsiteName {
+            text-align: center;
+            outline-style: 10px solid red;
+        }
+
+        .content {
+
+            background-color: #f4dbf4;
+            padding: 50px;
+
+
+
+        }
+
+        .content ul {
+            color: black;
+            text-align: center;
+        }
+
+        .content li {
+            display: block;
+            padding-right: 10px;
+        }
+
+        .content li:hover {
+            color: rgba(43, 2, 46, 0.45);
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <div class="header">
+            <h1 id="websiteName"> Muskan.com</h1>
+        </div><br><br>
+        <div class="content">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Singin</a></li>
+                <li><a href="#">contect</a></li>
+                <li><a href="#">help</a></li>
+            </ul>
+        </div>
+</body>
+
+</html>
