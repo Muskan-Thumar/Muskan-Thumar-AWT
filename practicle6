@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 6</title>
+    <link rel="stylesheet" href="./practical6.css">
+</head>
+<style>
+    *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.a
+{
+    background-color: rgba(252, 64, 174, 0.581);
+    width: 100%;
+    padding-left: 1%;
+    padding-right: 1%;
+    
+}
+.header
+{
+    width: 100%;
+    background-color: rgba(203, 0, 132, 0.454);
+    border: 3px solid rgba(252, 64, 174, 0.581);
+    color: black;
+    padding: 15px;
+}
+#navBar
+{
+    list-style: none;
+    float: right;
+    text-align: right;
+    color: rgba(245, 187, 248, 0.951);
+    font-weight: 5px;
+}
+#navBar li
+{
+    display: inline;
+}
+#navBar li:hover
+{
+    font-size: large;
+    background-color: azure;
+}
+#row1
+{
+    border: 3px solid rgba(254, 72, 120, 0.711);
+    margin-top: 10px;
+    padding-left: 12px;
+    background-color: rgba(255, 160, 201, 0.768);
+}
+#row2
+{
+    border: 3px solid rgba(254, 72, 120, 0.711);
+    margin-top: 10px;
+    padding-left: 12px;
+    background-color: rgba(255, 160, 201, 0.768);
+}
+#row3
+{
+    margin-top: 10px;
+    padding-left: 12px;
+    background-color: rgba(255, 160, 201, 0.768);
+    border: 3px solid rgba(254, 72, 120, 0.711);
+   
+}
+#col1, #col2, #col3
+{
+    display: inline-block;
+    width: 32.33%;
+    height: 250px;
+    background-color: rgb(177, 124, 147);
+    text-align: center;
+    margin-left: 5px;
+    border: 2px solid rgba(216, 19, 115, 0.298);
+    padding: 5px;
+}
+
+.footer
+{
+    border: 3px solid rgba(241, 166, 166, 0.656);
+    background-color: rgb(245, 106, 157);
+    padding: 30px;
+   text-align: right;
+   font-size: smaller;
+   margin-top: 10px;
+}
+  
+</style>
+<body>
+    <div class="a">
+        <div class="header">
+            <h1 id="logo">Logo</h1>
+            <ul id="navBar">
+                <li>Link 1</li>
+                <li>Link 2</li>
+                <li>Link 3</li>
+            </ul>
+        </div>
+        <div class="mainContainer">
+            <div id="row1">
+                <div id="col1"><h3> 1</h3></div>
+                <div id="col2"><h3> 2</h3></div>
+                <div id="col3"><h3> 3</h3></div>
+            </div>
+            <div id="row2">
+                <div id="col1"><h3> 4</h3></div>
+                <div id="col2"><h3> 5</h3></div>
+                <div id="col3"><h3> 6</h3></div>
+            </div>
+            <div id="row3">
+                <div id="col1"><h3> 7</h3></div>
+                <div id="col2"><h3> 8</h3></div>
+                <div id="col3"><h3> 9</h3></div>
+            </div>
+        </div>
+        <div class="footer">
+            <h3 id="copyrightText">contect no</h3>
+        </div>
+    </div>
+</body>
+</html> 
