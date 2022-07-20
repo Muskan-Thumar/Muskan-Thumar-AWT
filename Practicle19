@@ -1,0 +1,58 @@
+<html>
+
+<head>
+
+    <title>Font Awesome</title>
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        .f {
+            width: 500px;
+            background-color: antiquewhite;
+            padding: 60px;
+            margin: 40px;
+            border: 2px solid #000000;
+            border-radius: 0.75cm;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+
+        <table>
+
+            <tr class="f">
+                <td class="f"><i class="fa fa-cloud" style="font-size:24px;"></i></td>
+                <td class="f"><i class="fa fa-cloud" style="font-size:36px;"></i></td><br><br>
+            </tr>
+            <tr class="f">
+                <td class="f" >
+                    <i class="fa fa-cloud" style="font-size:48px;color:red;"></i>
+                </td>
+                <td class="f">
+                    <i class="fa fa-cloud" style="font-size:60px;color:lightblue;text-shadow:2px 2px 4px #000000;"></i>
+                </td><br><br>
+
+            </tr>
+            <tr class="f">
+                <td class="f">
+                    <i class="fa fa-heart"></i>
+                </td>
+                <td class="f">
+                    <i class="fa fa-car"></i>
+                </td><br><br>
+            </tr>
+            <tr class="f">
+                <td class="f" ><i class="fa fa-file"></i></td>
+                <td class="f"><i class="material-icons">cloud</i></td><br><br>
+            </tr>
+
+        </table>
+    </center>
+</body>
+
+</html>
