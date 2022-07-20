@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 15</title>
+    <style>
+        * {
+
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .flex-container-one {
+            width: 50%;
+            height: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            border: 3px solid rgb(71, 18, 37);
+            background-color: rgb(199, 109, 124);
+
+        }
+
+        .flex-container-one-item {
+
+            margin-top: 2px;
+            margin-bottom: 2px;
+            margin-right: 4px;
+            padding: 2px;
+            transition: 0.75s;
+            color: rgb(71, 18, 37);
+            background-color: rgb(199, 109, 124);
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        .flex-container-one-item:hover {
+            transform: scale(1.09);
+        }
+
+        .flex-container-two {
+            width: 50%;
+            height: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            border: 3px solid rgb(71, 18, 37);
+            margin-top: 4px;
+            background-color: rgb(199, 109, 124);
+        }
+
+        .flex-container-two-item {
+
+            margin-top: 2px;
+            margin-bottom: 2px;
+            margin-right: 4px;
+            padding: 2px;
+            transition: 0.75s;
+            color: rgb(71, 18, 37);
+            background-color: rgb(199, 109, 124);
+            text-align: center;
+            margin-top: 5px;
+
+        }
+
+        .flex-container-two-item:hover {
+            transform: scale(1.09);
+        }
+
+        .flex-container-three {
+            width: 50%;
+            height: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            border: 3px solid rgb(71, 18, 37);
+            margin-top: 4px;
+            background-color: rgb(199, 109, 124);
+
+
+        }
+
+        .flex-container-three-item {
+            margin-top: 2px;
+            margin-bottom: 2px;
+            margin-right: 4px;
+            padding: 2px;
+            transition: 0.75s;
+            color: rgb(71, 18, 37);
+            background-color: rgb(199, 109, 124);
+            text-align: center;
+            margin-top: 5px;
+            
+
+        }
+
+        .flex-container-three-item:hover {
+            transform: scale(1.50);
+        }
+    </style>
+</head>
+
+<body>
+    <cenetr>
+        <div class="flex-container-one">
+            <div class="flex-container-one-item">MY</div>
+            <div class="flex-container-one-item">NAME</div>
+            <div class="flex-container-one-item">IS</div>
+            <div class="flex-container-one-item">MUSKAN</div>
+        </div><br><br>
+        <div class="flex-container-two">
+            <div class="flex-container-two-item">ROLL NUM:419</div>
+            <div class="flex-container-two-item">SEM-5</div>
+            <div class="flex-container-two-item">I.T</div>
+            <div class="flex-container-two-item">5 D</div>
+        </div><br><br>
+        <div class="flex-container-three">
+            <div class="flex-container-three-item">Enrollment No.</div>
+            <div class="flex-container-three-item">200203102105</div>
+            <div class="flex-container-three-item">Practile-</div>
+            <div class="flex-container-three-item">15</div>
+        </div><br><br>
+    </cenetr>
+</body>
+
+</html>
