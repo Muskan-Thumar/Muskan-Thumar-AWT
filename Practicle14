@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 14</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: aliceblue;
+            font-size: x-large;
+            text-align: center;
+        }
+        .container
+        {
+            width: 400px;
+            height: 900px;
+            display: flex;
+            
+            flex-direction: column;
+            flex-wrap: wrap;
+            border: 5px solid white;
+        }
+        .flex-item
+        {
+            margin: 4px;
+            color: white;
+            width: 350px;
+            height: 50px;
+            font-size: medium;
+            padding: 20px;
+            justify-content: space-between;
+        }
+        .item1
+        {
+            background-color: rgb(228, 170, 238);
+        }
+        .item2
+        {
+            background-color: rgb(194, 86, 213);
+        }
+        .item3
+        {
+            background-color: rgba(153, 71, 169, 0.745);
+        }
+        .item4
+        {
+            background-color: rgb(87, 38, 96);
+        }
+        .item5
+        {
+            background-color: rgb(39, 27, 50);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flex-item item1">item1</div>
+        <div class="flex-item item2">item2</div>
+        <div class="flex-item item3">item3</div>
+        <div class="flex-item item4">item4</div>
+        <div class="flex-item item5">item5</div>
+        <div class="flex-item item1">item1</div>
+        <div class="flex-item item2">item2</div>
+        <div class="flex-item item3">item3</div>
+        <div class="flex-item item4">item4</div>
+        <div class="flex-item item5">item5</div>
+        <div class="flex-item item1">item1</div>
+        <div class="flex-item item2">item2</div>
+        <div class="flex-item item3">item3</div>
+        <div class="flex-item item4">item4</div>
+        <div class="flex-item item5">item5</div>
+        
+    </div>
+</body>
+</html>
