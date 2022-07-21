@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Practical 17</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body
+        {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        table, th, td
+        {
+            border: 2px solid rgb(77, 31, 31);
+            background-color: rgb(163, 105, 117);
+            padding: 10px;
+        }
+        .flexbox
+        {
+            display: flex;
+            color: rgb(174, 115, 115);
+            font-size: large;
+            flex-direction: column;
+            background-color: rgb(104, 42, 53);
+            width: 100px;
+            padding: 10px;
+            text-align: center;
+        }
+        .flexbox-item
+        {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header"><h1>   Table   </h1></div>
+    <div class="main">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Enrollment</th>
+                <th>Branch</th>
+            </tr>
+            <tr>
+                <td>Muskan</td>
+                <td>Thumar</td>
+                <td>2002</td>
+                <td>IT</td>
+            </tr>
+            <tr>
+                <td>Hema</td>
+                <td>Prabhakar</td>
+                <td>2003</td>
+                <td>CE</td>
+            </tr>
+            <tr>
+                <td>Rima</td>
+                <td>Patel</td>
+                <td>2004</td>
+                <td>IT</td>
+            </tr>
+            <tr>
+                <td>Jaya</td>
+                <td>Patel</td>
+                <td>2005</td>
+                <td>CE</td>
+            </tr>
+        </table><br>
+        <button id="button1">Hide/Show</button>
+    </div><br><br><br><br><br>
+    <div class="flexbox">
+        <div class="flexbox-item" id="i1"><h3> 1</h3></div>
+        <div class="flexbox-item" id="i2"><h3> 2</h3></div>
+        <div class="flexbox-item" id="i3"><h3> 3</h3></div>
+        <div class="flexbox-item" id="i4"><h3> 4</h3></div>
+        <div class="flexbox-item" id="i5"><h3> 5</h3></div>
+    </div>
+        <button id="b1">Hide/Show Full Menu</button>
+        <button id="b2">Hide/Show Even Menu</button>
+        <button id="b3">Hide/Show Odd Menu</button>
+    <div class="footer"></div>
+    <script>
+        $(document).ready(function(){
+            $("#button1").click(function() {
+                $("table tr:odd").toggle("slow");
+            });
+            $("#b1").click(function() {
+                $(".flexbox").toggle("slow");
+            });
+            $("#b2").click(function() {
+                $("#i2, #i4").toggle("slow");
+            });
+            $("#b3").click(function() {
+                $("#i1, #i3, #i5").toggle("slow");
+            });
+        });
+    </script>
+</body>
+</html>
