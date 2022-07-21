@@ -1,0 +1,115 @@
+<html>
+
+<head>
+    <title>CSS Hover Element - Selector OR Child Combinator</title>
+    <style type="text/css">
+        #MainUL li ul li {
+            display: none;
+        }
+
+        #MainUL li:hover ul li {
+            display: block;
+        }
+
+        #MainUL li:hover ul li ul li {
+            display: none;
+        }
+
+        #MainUL li :hover ul li ul li ul li {
+            display: none;
+        }
+
+
+        #MainUL li ul li:hover ul li {
+            display: block;
+        }
+
+        #MainUL li ul li:hover ul li ul li {
+            display: none;
+        }
+        #MainUL li ul li:hover ul li ul li ul li {
+            display: block;
+        }
+
+        #MainUL li ul li ul li:hover ul li {
+            display: block;
+        }
+
+        #MainUL li ul li ul li ul li:hover ul li {
+            display: none;
+        }
+        .MainUL {
+            color: blue;
+            font-size: x-large;
+            outline: 10px;
+            padding: 10px;
+            margin: auto;
+            font-variant: small-caps;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="MainUL">
+    <ul id="MainUL">
+        <li>Google
+            <ul>
+                <li>Gmail
+                    <ul>
+                        <li>Sign Up</li>
+                        <li>Sign In
+                            <ul>
+                                <li>Sign In As Admin</li>
+                                <li>Sign In As Member
+                                    <ul>
+                                        <li>micro</li>
+                                        <li>nutrone</li>
+                                        
+                                    </ul>
+                                </li>
+                            </ul>
+
+                        </li>
+                    </ul>
+                </li>
+                <li>Youtube</li>
+                <li>GDrive</li>
+                <li>GMap</li>
+            </ul>
+        </li>
+        <li>Facebook</li>
+        <li>Microsoft
+            <ul>
+                <li>Bing</li>
+                <li>Linked In
+                    <ul>
+                        <li>hello world</li>
+                        <li> print</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>MSN</li>
+        <li>Amazon
+            <ul>
+                <li>AWS</li>
+                <li>Ecommerce</li>
+                <li>A-ML</li>
+            </ul>
+        </li>
+        <li>muskan
+            <ul>
+                <li>ahmedabad</li>
+                <li>hello</li>
+            </ul>
+
+        </li>
+    </ul>
+</div>
+
+</body>
+
+</html>
